@@ -1,0 +1,14 @@
+int a[5];
+
+int main(){
+	int i;
+	for (i = 0;i < 5;++i){
+		if (i == 3)
+			break;
+		a[i] = i;
+		if (i == 1)
+			continue;
+		write(i);
+	}
+	return 0;
+}

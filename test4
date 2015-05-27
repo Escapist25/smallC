@@ -1,0 +1,17 @@
+int b;
+
+int main()
+{
+	int a[5] = {5,4,3,2,1};
+	int i,j,tmp;
+	for (i = 0;i < 5;++i)
+		for (j = 0;j < 5-i-1;++j)
+			if (a[j] < a[j+1]){
+				tmp = a[j];
+				a[j] = a[j+1];
+				a[j+1] = tmp;
+			}
+	for (i = 0;i < 5;++i)
+		write(a[i]);
+	return 0;
+}

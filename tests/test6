@@ -1,0 +1,47 @@
+struct acrossthegreatxxxxwallwecanreacheverycornerintheworld
+{
+	int sigcomm;
+};
+
+struct haoehaoehaoewozhendehaoe
+{
+	int huiguorou;
+	int huoguo;
+	int shaokao;
+	int tiaoshuitu;
+};
+
+struct double0
+{
+	int GOOGLE;
+	int FACEBOOK;
+	int MICROSOFT;
+	int GROUPON;
+	int YAHOO;
+};
+
+struct acrossthegreatxxxxwallwecanreacheverycornerintheworld A;
+struct acrossthegreatxxxxwallwecanreacheverycornerintheworld B;
+struct haoehaoehaoewozhendehaoe C;
+struct double0 R;
+struct double0 G;
+struct double0 T;
+
+int main()
+{
+	int t;
+	read(t);
+	A.sigcomm = t;
+	read(t);
+	B.sigcomm = t;
+	read(t);
+	C.tiaoshuitu = t;
+	R.YAHOO=-1234567890;
+	write(R.YAHOO);
+	write(A.sigcomm);
+	write(B.sigcomm);
+	write(C.tiaoshuitu);
+	return 0;
+}
+
+
