@@ -1,30 +1,27 @@
-Author: Xue Yinsong No.5120309415
-Contact : xyshh94225@sjtu.edu.cn
-Mobile  : 18817874117
+Author: Xue Yinsong 
+Contact : xyshh94225@hotmail.com
 Platform: OS X 10.10 
           Apple LLVM 6.0 (clang-600.0.54)
-USAGE:
+
+SAMPLE USAGE:
 cd This_Directory
 make
 chmod +x scc
-./scc FILENAME
-make clean (if needed)
+./scc tests/test0
 
-Filelist:
-small.c   -- lex source
-small.y   -- yacc source
-scc.sh    ！- the shell file to perform a complete compile process
-gencode.py ！- the python source file to generate the machine instructions.
-splitcode.py ！- a small python program to help to make the target program.
-queue.c  queue.h  ！- source codes to implement the queue for function arguments
-sym_table.h sym_table.c ！- source codes for the symbol table structure
-type.h type.c  ！- source codes for the type structure
-def.h ！- the common header
-makefile  -- makefile
-test.c    -- sample target program
-README    -- this file
+Compile process:
+              small                         splitcode.py                        gencode.py
+Source code ---------- Intermediate code I -------------- Intermediate code II ------------ Target MIPS code 
 
+SmallC language specification:
+doc/SmallC specification.pdf
 
+MIPS specification:
+doc/spim_documentation.pdf
 
-implementation details:
-Please check the comments in the source programs and the project report.
+register allocation algorithm:
+doc/register_allocation.pdf
+
+Implementation detail:
+doc/Report.pdf
+

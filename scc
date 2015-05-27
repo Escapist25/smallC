@@ -2,5 +2,5 @@
 ./small $1
 python splitcode.py
 python gencode.py
-cp finalcode.s MIPSCode.s
-cp InterCode1.txt InterCode
+mv finalcode.s MIPSCode.s
+mv InterCode1.txt InterCode

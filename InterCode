@@ -1,0 +1,10 @@
+7 2 2
+deffunc main 0 $v0
+read t1
+write t1
+add t2 $0 0
+move $v0 t2
+return 
+endfunc main
+globaldef $v0 1
+localdef main t1 1
